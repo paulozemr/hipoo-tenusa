@@ -1,11 +1,12 @@
 <script>
 import CalculosHipotenusa from "@/components/CalculosHipotenusa.vue";
+import CAbeça from "@/components/CAbeça.vue"
 export default {
-  components: { CalculosHipotenusa },
+  components: { CalculosHipotenusa , CAbeça },
 };
 </script>
 <template>
-  <header id="header">HipooTenusa!</header>
+  <CAbeça />
   <CalculosHipotenusa />
   <main id="content">Desenho do triangulo-retangulo</main>
   <footer id="footer"></footer>
